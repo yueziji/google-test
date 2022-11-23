@@ -1,0 +1,7 @@
+{
+  "name": "proxy",
+  "version": 2,
+  "routes": [
+    {"src": "/(.*)","dest": "https://www.google.com/$1"}
+  ]
+}
